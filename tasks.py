@@ -3,7 +3,8 @@ import os
 
 def show_tasks(tasks):
     for task in tasks:
-        print(task ["how_many"] ,"-", task["priority"])
+        print(task["name"] , "-", task["priority"])
+
 
 def save_tasks(tasks):
     with open("tasks.json", "w",encoding ="utf-8") as file:
