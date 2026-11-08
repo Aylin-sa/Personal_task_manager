@@ -9,8 +9,16 @@ A symple task manager buld with python
 - save task
 - load save task
 - admin mode
+- set task priority
 
+## Task priority
 
+each task can have one these priority level:
+
+- low
+- medium
+- high
+  
 ## Requirments
 
 - python
@@ -24,7 +32,7 @@ install the requirment package
 pyton -m pip install -r requirment.txt
 ```
 
-## Project structure
+## Project Structure
 ```txt
 personal_Task_manager/
 │   .env.example
@@ -40,7 +48,7 @@ personal_Task_manager/
 │          gif_1.gif
 │______________
 ```
-## Envirment setup
+## Envirment Setup
 create a `.env` file folderfroject folder
 
 use `.env.example` as a template 
@@ -54,13 +62,13 @@ admin_pass=your_password_here
 replace `your_password_here` with your own admin password
 
 
-## run the program
+## Run the Program
 run the main file
 ```bash
 python main.py
 ```
 
-## Screen shot
+## Screenshot
 ![personal_task_manager_screenshot](photo/photo.png)
 
 
