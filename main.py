@@ -6,7 +6,7 @@ load_dotenv()
 
 
 name = input(" 🌸 enter your name : ")
-print("welcome back", name)
+print("hello", name, "welcome to personal task manager")
 
 admin_mod = input(" 🌸 do you want admin mod? yes/no: ")
 if admin_mod == "yes":
