@@ -2,7 +2,7 @@
 
 ![badge](https://img.shields.io/badge/python-pink?logo=python&logoColor=white)
 
-A symple task manager buld with python and it use git 
+A symple task manager buld with python and git
 
 ## Features
 - add multyple tasks
