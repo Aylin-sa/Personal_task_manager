@@ -29,4 +29,6 @@ for i in range(how_many):
 
 show_tasks(tasks)
 save_tasks(tasks)
+
+print("total tasks : ", len(task))
 load_tasks()
